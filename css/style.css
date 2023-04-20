@@ -17,12 +17,21 @@ header, footer{
     border-radius: 30px;
 }
 
-ul {
+a {
     color: #f7f8fd;
-    line-height: 1.5;
+    text-decoration: none;
 }
 
-h2{
-    color:#f7f8fd;
+a:hover{
+    color: #7ccf45;
+}
+
+ul {
+    color: #f7f8fd;
+    line-height: 2;
+}
+
+h2, p{
+    color:#7ccf45;
     text-align: left;
 }
