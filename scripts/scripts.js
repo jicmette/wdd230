@@ -3,5 +3,5 @@ document.querySelector(".currentYear").innerText = year;
 
 function lastedit() {
     var latestDate = document.lastModified;
-    document.getElementById("lastupdated").innerHTML = latestDate;
+    document.getElementById("lastupdated").innerHTML = "<p> Last Updated: " + latestDate;
 }
