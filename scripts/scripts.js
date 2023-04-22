@@ -2,6 +2,8 @@ const year = new Date().getFullYear();
 document.querySelector(".currentYear").innerText = year;
 
 function lastedit() {
-    var latestDate = document.lastModified;
+    let latestDate = document.lastModified;
     document.getElementById("lastupdated").innerHTML = "<p> Last Updated: " + latestDate;
 }
+
+const dayUntil = "There are ${daycount} days until ${targetEvent}!";
