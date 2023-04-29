@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*GENERAL*/
+
+body {
+    background-color: #1f2028;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1.25rem auto;
+    max-width: 62.5em;
+}
+
+h2{
+    color:#7ccf45;
+    text-align: center;
+}
+
+h3{
+    background-color: #7ccf45;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    color:#1f2028;
+    text-align: center;
+}
+
+#company {
+    color: #1f2028;
+}
+
+section{
+    border-radius: 10px;
+    background-color: #f7f8fd;
+    overflow: hidden;
+    padding: 0.5rem;
+    
+}
+
+
+section img {
+    width: 100%;
+    display: block;
+    border: 2px solid #1f2028;
+    margin: 0 auto;
+}
+
+
+
+
+
+p {
+color: #1f2028;
+text-align: left;
+line-height: 1.5em;
+margin: 10px;
+text-justify: auto;
+}
+
+/*HEADER*/
+
+header{
+    background-color: #f7f8fd;
+    color:#1f2028;
+    text-align: center;
+    padding: 1em;
+}
+
+
+#name {
+    color: #1f2028;
+}
+
+a {
+    background-color: #1f2028;
+    padding: 5px;
+    border-radius: 10px;
+    color: #f7f8fd;
+    text-decoration: none;
+} 
+
+a:hover{ 
+    background-color: #7ccf45;
+    color: #1f2028;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background: #1f2028;
+    width: 95%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: #f7f8fd;
+    text-align: center;
+    color: #1f2028;
+}
+
+#pfooter {
+    color: #1f2028;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+#buttonLast {
+    background-color: #1f2028;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 15px 32px;
+    color: #f7f8fd;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#buttonLast:hover{
+    background-color: #7ccf45; 
+    color: #1f2028; 
+}
+
+#lastupdated {
+    font-size: 12px;
+    align-self: center;
+    grid-column: 1/2;
+    font-family: 'Ubuntu', sans-serif;
+}
