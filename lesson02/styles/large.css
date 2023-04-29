@@ -11,18 +11,21 @@ body {
 }
 
 h2{
-    color:#7ccf45;
-    text-align: center;
-}
-
-h3{
     background-color: #7ccf45;
     border-radius: 10px;
     margin: 0;
     padding: 10px;
     color:#1f2028;
     text-align: center;
+    
 }
+
+h3{
+    color:#7ccf45;
+    text-align: center;
+}
+
+
 
 #company {
     color: #1f2028;
@@ -36,12 +39,11 @@ section{
     
 }
 
-
 section img {
     width: 100%;
     display: block;
-    border: 2px solid #1f2028;
-    margin: 0 auto;
+    border: 1px solid #1f2028;
+    margin: 10px auto;
 }
 
 p {
@@ -62,9 +64,9 @@ header{
     padding: 1em;
 }
 
-
 #name {
     color: #1f2028;
+    background-color: #f7f8fd;
 }
 
 a {
