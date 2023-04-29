@@ -5,10 +5,10 @@
     }
 
     header{
-        background-color: #f7f8fd;
         border-radius: 0;
-        color:#1f2028;
-        text-align: center;
-        padding: 1em;
+    }
+
+    footer {
+        border-radius: 0;
     }
 }
