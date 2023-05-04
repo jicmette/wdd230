@@ -1,0 +1,34 @@
+@media only screen and (min-width: 36em) and (max-width: 62.37em) {
+    header{
+        border-radius: 1.25em;
+    }
+
+
+    main {
+        display: grid;
+        grid-template-columns: 30% auto;
+        gap: 1.875em;
+    }
+
+    
+    
+
+    footer {
+        border-radius: 1.25em;
+    }
+
+    /*TARGET AUDIENCE PAGE*/
+
+    #target-audience {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.25em;
+    }
+
+    #audi {
+        grid-column: 1/3;
+    }
+
+    
+}
+
