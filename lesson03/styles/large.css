@@ -9,8 +9,17 @@
         gap: 30px;
     }
 
-    /*TARGET AUDIENCE PAGE*/
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
+    nav div {
+        flex: 1 1 auto;
+    }
+    
+
+    /*TARGET AUDIENCE PAGE*/
     #target-audience{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -19,6 +28,12 @@
 
     #audi {
         grid-column: 1/3;
+    }
+
+    /*DESIGN PAGE*/
+    #design {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     footer {

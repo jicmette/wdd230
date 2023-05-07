@@ -1,8 +1,16 @@
-@media only screen and (min-width: 36em) and (max-width: 62.37em) {
+@media (min-width: 36em) and (max-width: 62.37em)  {
     header{
         border-radius: 1.25em;
+        display: block;
     }
 
+    nav {
+        flex-direction: row;  
+    }
+
+    nav div {
+        flex: 1 1 auto;
+    }
 
     main {
         display: grid;
@@ -10,15 +18,15 @@
         gap: 1.875em;
     }
 
-    
-    
+    #titleCom {
+        font-size: 1.7em;
+    }
 
     footer {
         border-radius: 1.25em;
     }
 
     /*TARGET AUDIENCE PAGE*/
-
     #target-audience {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -29,6 +37,10 @@
         grid-column: 1/3;
     }
 
-    
+    /*DESIGN PAGE*/
+    #design {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
