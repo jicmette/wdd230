@@ -46,12 +46,6 @@ p {
     grid-column: 1/3;
 }
 
-li {
-    list-style: none;
-    padding: 0;
-    margin: 1em;
-    
-}
 
 a {
     text-decoration: none;
@@ -61,6 +55,12 @@ a {
     height: auto;
     align-self: center;
 
+}
+
+a:hover {
+    background-color: #8a2144;
+    color: #f7f8fd;
+    border-radius: .5em;
 }
 
 #location {
@@ -75,19 +75,42 @@ a {
     height: 2em;
 }
 
-button {
+#hamburger {
     background-color: transparent;
     border: none;
     font-size: 2em;
     width: 100%;
     grid-column: 5/6;
-    
+    display: block;
+	  
 }
 
 .navigation {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5em;
+    background-color: #181717;
+    width: 100%;
+    text-align: justify;
+}
+
+.navigation li{
     display: none;
-    margin: 1em;
-    padding: 0;
+}
+
+.navigation li a {
+	padding: 1.15rem;
+	color: #fff;
+    border-radius: 1.5em;
+}
+
+.navigation.responsive li{
+    display: block;
+}
+
+.navigation.responsive li a{
+    display: block;
+    
 }
 
 #fb {

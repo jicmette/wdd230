@@ -4,12 +4,6 @@ header {
 }
 
 
-.navigation {
-    display: none;
-    margin: 1em;
-    padding: 0;
-}
-
 #logo {
     width: 40%;
     justify-self: start;
@@ -32,10 +26,33 @@ header {
     grid-column: 3/4;
 }
 
-button {
+#hamburger {
     width: 100%;
     grid-column: 4/5;
     grid-row: 1/2;
+}
+
+
+.navigation li{
+    display: none;
+    margin: 1em;
+    padding: 0;
+}
+
+.navigation li a {
+	padding: 1.15rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation.responsive li{
+    display: block;
+}
+
+.navigation.responsive li a{
+    display: block;
 }
 
 

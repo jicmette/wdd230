@@ -1,7 +1,9 @@
-function toggleMenu() {
-  document.getElementsByClassName(".navigation").classList.toggle(".show");
-}
+const hamburger = document.querySelector('#hamburger');
+const navigation = document.querySelector('.navigation');
 
+hamburger.addEventListener('click', () => {
+  navigation.classList.toggle('responsive')
+});
 
 //Day and date in the header
 const today = new Date();
