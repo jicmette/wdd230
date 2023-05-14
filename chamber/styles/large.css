@@ -1,0 +1,25 @@
+@media only screen and (min-width: 62.37em) {
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+button {
+    display: none;
+}
+
+#dataOrder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    }
+    
+#pbottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+            
+}
+}

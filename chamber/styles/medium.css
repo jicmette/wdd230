@@ -1,0 +1,56 @@
+@media (min-width: 36em) and (max-width: 62.37em)  {
+header {
+    grid-template-columns: 70% 10% 10% 10%;
+}
+
+
+.navigation {
+    display: none;
+    margin: 1em;
+    padding: 0;
+}
+
+#logo {
+    width: 40%;
+    justify-self: start;
+    grid-row: 1/2;
+}
+
+.social {
+    width: auto;
+}
+
+#fb {
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#linked {
+    justify-self: center;
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+button {
+    width: 100%;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+
+    
+#dataOrder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    }
+    
+#pbottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+            
+}
+
+}
+

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+/*GENERAL*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #830D35;
+    font-family: 'Sora', sans-serif;
+    margin: 20px auto;
+    max-width: 62.5em;
+    color: #830D35;
+}
+
+hr {
+    width: 90%;
+    border-top: 1px solid #830D35;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    background-color: #f7f8fd;
+    padding: 1em;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+    margin: .5em auto;
+    
+}
+
+p {
+    width: 95%;
+    height: auto;
+    padding: 1em;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+#logo {
+    width: 100%;
+    grid-column: 1/3;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 1em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #830D35;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    align-self: center;
+
+}
+
+#location {
+    display: block;
+    margin: .5em auto;
+    text-align: center;
+    width: 40%;
+}
+
+#currenTime {
+    width: 80%;
+    height: 2em;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    width: 100%;
+    grid-column: 5/6;
+    
+}
+
+.navigation {
+    display: none;
+    margin: 1em;
+    padding: 0;
+}
+
+#fb {
+    width: 40%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    align-self: center;   
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#linked {
+    width: 40%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    align-self: center; 
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.divsExamples {
+    background-color: #f7f8fd;
+    width: 95%;
+    height: 10em;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin: 1em auto;
+}
+
+footer {
+    display: grid;
+    grid-column: 1fr;
+    background-color: #f7f8fd;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+    margin: .5em auto;
+    padding-bottom: 1em;
+}
+
+#logoFooter {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: .3em auto;
+}
+
+#dataOrder p{
+    text-align: center;
+    justify-self: center;
+    margin: 0;
+    padding: .5em;
+}
+
+#pfooter {
+    margin: 0;
+    padding: .5em;
+}
+
+#pbottom p{
+    text-align: center;
+    justify-self: center;
+    padding: .5em;
+    margin: 0;
+}
+
+#currentDate {
+    background-color: #8a2144;
+    color: #f7f8fd;
+    text-align: center;
+    padding: .5em;
+    width: 70%;
+    height: 2em;
+    margin-top: .5em;
+    border-radius: 1em;
+    grid-column: 1/6;
+}
+
+#lastModified {
+    color: #830D35;
+    text-align: center;
+}
