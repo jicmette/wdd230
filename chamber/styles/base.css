@@ -32,6 +32,119 @@ header {
     
 }
 
+#hamburger {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    width: 100%;
+    grid-column: 5/6;
+    display: block;
+	  
+}
+
+
+.hero h1 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 1em;
+    color: #f7f8fd;
+    margin-left: 2em;
+    background-color: #830D35;
+    padding: .5em;
+    border-radius: .5em;
+
+}
+
+.hero img {
+    position: relative;
+    display: block;
+    margin: .5em auto;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+}
+
+#joinButton {
+    position: absolute;
+    z-index: 1;
+    border-radius: 1em;
+    background-color: #f7f8fd;
+    color: #830D35;
+    padding: 1em;
+    margin-top: 17em;
+    margin-left: 17em;
+}
+
+#joinButton:hover {
+    background-color: #830D35;
+    color: #f7f8fd;
+}
+
+.event {
+    background-color: #f7f8fd;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin: 1em auto;
+}
+
+
+
+.weather-container{
+    background-color: #f7f8fd;
+    width: 60%;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin: 1em auto;
+}
+
+#icon-weather {
+    display: grid;
+    grid-template-columns: 60% 40%;  
+}
+
+#iw {
+    width: 80%;
+    justify-self: center;
+    grid-column: 1/2;
+}
+
+#temp {
+    grid-column: 2/3;
+    align-self: center;
+}
+
+#wind {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+}
+
+.h3w {
+    margin: 0;
+    padding: 0;
+}
+
+.news {
+    background-color: #f7f8fd;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin: 1em auto;
+}
+
+.event, .weather-container, .news h2 {
+    color: #830D35;
+    display: block;
+    text-align: center;
+    padding-top: .5em;
+}
+
+
 p {
     width: 95%;
     height: auto;
@@ -51,9 +164,10 @@ a {
     text-decoration: none;
     color: #830D35;
     margin: 0;
-    padding: 0;
+    padding: 1em;
     height: auto;
     align-self: center;
+
 
 }
 
@@ -75,15 +189,7 @@ a:hover {
     height: 2em;
 }
 
-#hamburger {
-    background-color: transparent;
-    border: none;
-    font-size: 2em;
-    width: 100%;
-    grid-column: 5/6;
-    display: block;
-	  
-}
+
 
 .navigation {
     display: flex;
