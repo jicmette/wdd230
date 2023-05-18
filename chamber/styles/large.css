@@ -4,6 +4,23 @@ header {
     grid-template-columns: repeat(5, 1fr);
 }
 
+#img-mediumLarge {
+    position: relative;
+    display: block;
+    margin: .5em auto;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+}
+
+#img-small{
+    display: none;
+}
+
+nav{
+    grid-column: 3/4;
+}
+
 .navigation{
     display: flex;
     flex-direction: row;

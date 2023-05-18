@@ -4,6 +4,84 @@ header {
 }
 
 
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
+.hero {
+    grid-column: 1/6;
+    height: auto;
+}
+
+#img-mediumLarge {
+    position: relative;
+    display: block;
+    margin: .5em auto;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+}
+
+#img-small{
+    display: none;
+}
+
+
+
+.news {
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+.main-spotlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1/6;
+    grid-row: 3/4;
+}
+
+.joinUs {
+    display: block;
+    background-color: #f7f8fd;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin: 1em auto;
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
+
+#aJoin {
+    display: block;
+    text-align: center;
+    background-color: #8a2144;
+    color: #f7f8fd;
+    margin: .5em;
+    border-radius: 1.5em;
+}
+
+#aJoin:hover {
+    background-color: black;
+}
+
+.event {
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+
+.weather-container {
+    grid-column: 4/6;
+    width: 95%;
+}
+
+#hrnone {
+    display: none;
+}
+
 #logo {
     width: 40%;
     justify-self: start;

@@ -56,7 +56,7 @@ header {
 
 }
 
-.hero img {
+#img-small{
     position: relative;
     display: block;
     margin: .5em auto;
@@ -64,6 +64,12 @@ header {
     height: auto;
     border-radius: 1em;
 }
+
+#img-mediumLarge {
+    display: none;
+}
+
+
 
 #joinButton {
     position: absolute;
@@ -91,7 +97,9 @@ header {
     margin: 1em auto;
 }
 
-
+.joinUs {
+    display: none;
+}
 
 .weather-container{
     background-color: #f7f8fd;
@@ -193,8 +201,6 @@ a {
     padding: 1em;
     height: auto;
     align-self: center;
-
-
 }
 
 a:hover {
@@ -245,6 +251,10 @@ a:hover {
     
 }
 
+nav{
+    grid-column: 1/6;
+    width: 100%;
+}
 #fb {
     width: 40%;
     height: auto;
