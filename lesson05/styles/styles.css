@@ -4,6 +4,8 @@
 }
 
 body {
+
+	background-color: #1f2028;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -14,16 +16,17 @@ body {
 
 h1 {
 	font-size: 1.5rem;
+	color: #d7d9df;
 }
 
 main {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 1rem;
-	background-color: #305bd3;
+	background-color: #b3b6bd;
 	display: flex;
 	flex-direction: column;
-	color: #d7d9df;
+	color: #1f2028;
 }
 
 input,
