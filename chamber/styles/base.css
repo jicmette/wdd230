@@ -74,6 +74,7 @@ header {
     padding: .6em;
     margin-top: 17em;
     margin-left: 17em;
+    border-color: #f7f8fd;
 }
 
 #joinButton:hover {
@@ -138,13 +139,37 @@ header {
     margin: 1em auto;
 }
 
-.event, .weather-container, .news h2 {
+.event, .weather-container, .news, .spotlight1, .spotlight2 h2 {
     color: #830D35;
     display: block;
     text-align: center;
     padding-top: .5em;
 }
 
+.main-spotlight {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #f7f8fd;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin: 1em auto;
+}
+
+.spotlight1 {
+    grid-row: 1/2;
+    height: auto;
+}
+
+#trade-fair {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: .5em auto;
+    padding: 0;
+}
 
 p {
     width: 95%;
