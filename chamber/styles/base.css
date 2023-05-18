@@ -52,6 +52,7 @@ header {
     background-color: #830D35;
     padding: .5em;
     border-radius: .5em;
+    font-size: 1.5em;
 
 }
 
@@ -70,7 +71,7 @@ header {
     border-radius: 1em;
     background-color: #f7f8fd;
     color: #830D35;
-    padding: 1em;
+    padding: .6em;
     margin-top: 17em;
     margin-left: 17em;
 }
