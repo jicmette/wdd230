@@ -4,7 +4,15 @@ header {
     grid-template-columns: repeat(5, 1fr);
 }
 
+main {
+    
+}
+
 #img-mediumLarge {
+    display: none;
+}
+
+#museo {
     position: relative;
     display: block;
     margin: .5em auto;
@@ -54,9 +62,6 @@ nav{
 
 }
 
-
-
-
 #hamburger {
     display: none;
 }
@@ -72,4 +77,11 @@ nav{
     grid-template-columns: repeat(3, auto);
             
 }
+
+#joinButton {
+    margin-top: 17em;
+    margin-left: 48em;
+    
 }
+}
+

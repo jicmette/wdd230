@@ -24,8 +24,18 @@ main {
     border-radius: 1em;
 }
 
+#museo {
+    display: none;
+}
+
 #img-small{
     display: none;
+}
+
+#joinButton {
+    margin-top: 12em;
+    margin-left: 45em;
+    
 }
 
 

@@ -69,14 +69,18 @@ header {
     display: none;
 }
 
+#museo {
+    display: none;
+}
+
 
 
 #joinButton {
     position: absolute;
     z-index: 1;
     border-radius: 1em;
-    background-color: #f7f8fd;
-    color: #830D35;
+    background-color: #830D35;
+    color: #f7f8fd;
     padding: .6em;
     margin-top: 17em;
     margin-left: 17em;
@@ -84,8 +88,7 @@ header {
 }
 
 #joinButton:hover {
-    background-color: #830D35;
-    color: #f7f8fd;
+    background-color: black;
 }
 
 .event {
