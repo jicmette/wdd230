@@ -65,19 +65,6 @@ main {
     grid-row: 4/5;
 }
 
-#aJoin {
-    display: block;
-    text-align: center;
-    background-color: #8a2144;
-    color: #f7f8fd;
-    margin: .5em;
-    border-radius: 1.5em;
-}
-
-#aJoin:hover {
-    background-color: black;
-}
-
 .event {
     grid-column: 1/4;
     grid-row: 5/6;
@@ -120,6 +107,10 @@ main {
     grid-row: 1/2;
 }
 
+
+.navigation {
+    padding-left: 0;
+}
 
 .navigation li{
     display: none;

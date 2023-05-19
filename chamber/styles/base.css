@@ -9,8 +9,8 @@
 body {
     background-color: #830D35;
     font-family: 'Sora', sans-serif;
-    margin: 20px auto;
-    max-width: 62.5em;
+    margin: .1em auto;
+    max-width: 75em;
     color: #830D35;
 }
 
@@ -94,14 +94,26 @@ header {
 .event {
     background-color: #f7f8fd;
     width: 95%;
-    height: auto;
     border-radius: 1em;
-    margin-top: 1em;
     margin: 1em auto;
+    height: 18em;
 }
 
 .joinUs {
     display: none;
+}
+
+#aJoin {
+    display: block;
+    text-align: center;
+    background-color: #8a2144;
+    color: #f7f8fd;
+    margin: 1em;
+    border-radius: 1.5em;
+}
+
+#aJoin:hover {
+    background-color: black;
 }
 
 .weather-container{
@@ -183,11 +195,13 @@ header {
 }
 
 p {
+    display: block;
     width: 95%;
     height: auto;
     padding: 1em;
-    text-align: center;
+    margin: 0;
     line-height: 1.5;
+    text-align: center;
 
 }
 
@@ -232,7 +246,8 @@ a:hover {
     border-radius: 1.5em;
     background-color: #181717;
     width: 100%;
-    text-align: justify;
+    padding: 0;
+    text-align: center;
 }
 
 .navigation li{
