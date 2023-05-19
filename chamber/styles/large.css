@@ -1,11 +1,15 @@
 @media only screen and (min-width: 62.37em) {
 
 header {
-    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    grid-template-columns: repeat(5, auto);
 }
 
 main {
-    
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(7, auto);
+    height: auto;
 }
 
 #img-mediumLarge {
@@ -82,6 +86,58 @@ nav{
     margin-top: 17em;
     margin-left: 48em;
     
+}
+
+.event {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: auto;
+}
+
+.weather-container{
+    grid-column: 1/3;
+    grid-row: 3/6;
+    width: 100%;
+}
+
+.joinUs {
+    display: block;
+    background-color: #f7f8fd;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin: 1em auto;
+    grid-column: 1/3;
+    grid-row: 6/8;
+}
+
+#aJoin {
+    display: block;
+    text-align: center;
+    background-color: #8a2144;
+    color: #f7f8fd;
+    margin: .5em;
+    border-radius: 1.5em;
+}
+
+#aJoin:hover {
+    background-color: black;
+}
+
+.hero {
+    grid-column: 3/8;
+    grid-row: 1/5;
+}
+
+.main-spotlight {
+    grid-column: 8/10;
+    grid-row: 1/8;
+}
+
+.news {
+    grid-column: 3/8;
+    grid-row: 6/8;
 }
 }
 
