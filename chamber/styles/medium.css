@@ -96,8 +96,8 @@ main {
 }
 
 #joinButton {
-    margin-top: 12em;
-    margin-left: 45em;
+    margin-left: 72%;
+    margin-top: 25%;
 }
 
 .news {
@@ -121,12 +121,12 @@ main {
     border-radius: 1em;
     margin: 1em auto;
     grid-column: 1/6;
-    grid-row: 4/5;
+    grid-row: 5/6;
 }
 
 .event {
     grid-column: 1/4;
-    grid-row: 5/6;
+    grid-row: 6/7;
     height: auto;
     width: 90%;
 }
@@ -138,6 +138,7 @@ main {
 .weather-container {
     grid-column: 4/6;
     width: 90%;
+    grid-row: 6/7;
 }
 
 /*FOOTER*/

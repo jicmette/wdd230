@@ -170,17 +170,23 @@ nav {
 #joinButton {
     position: absolute;
     z-index: 1;
-    border-radius: 1em;
     background-color: #830D35;
     color: #f7f8fd;
     padding: .6em;
-    margin-top: 17em;
-    margin-left: 17em;
-    border-color: #f7f8fd;
+    float: right;
+    margin-left: 58%;
+    margin-top: 56%;
+    border: none;
+    border-radius: 1em;
+    box-shadow: 1px 2px #181717;
+    cursor: pointer;
 }
 
 #joinButton:hover {
     background-color: black;
+    border-radius: 0;
+    transition: .7s;
+    box-shadow: 2px 3px #830D35;
 }
 
 #meet {
