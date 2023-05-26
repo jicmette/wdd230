@@ -14,6 +14,7 @@ header {
     width: 40%;
     justify-self: start;
     grid-row: 1/2;
+    margin-left: 1.5em;
 }
 
 #fb {
@@ -97,7 +98,7 @@ main {
 
 #joinButton {
     margin-left: 72%;
-    margin-top: 25%;
+    margin-top: 40%;
 }
 
 .news {

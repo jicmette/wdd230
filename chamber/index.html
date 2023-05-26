@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <title>Chamber of Commerce Saltillo</title>
 </head>
 <body>
     <header>
-        <img id="logo" src="images/chamber-of-commerce-logo-saltillo.png" alt="Chamber of Commerce Saltillo Logo">
+        <img id="logo" src="images/chamber-of-commerce-logo-saltillo.webp" alt="Chamber of Commerce Saltillo Logo">
 
         <button id="hamburger">&#9776;</button>
         <nav>
@@ -42,9 +42,11 @@
         <div class="hero">
             <h1>Welcome to Saltillo!</h1>
             <button id="joinButton">Join the Chamber</button>
-            <img id="img-mediumLarge" src="images/museo-del-desierto-saltillo-medium-large.jpg" alt="Museo del Desierto, Saltillo">
-            <img id="img-small" src="images/saltillo-small.jpg" alt="Saltillo Downtown for small devices">
-            <img id="img-large" src="images/saltillo-large by Daniel Bates Hurtado.jpg" alt="Saltillo by Daniel Bates Hurtado">
+            <picture>
+                <source media="(max-width: 575px)" srcset="images/saltillo-575.jpg">
+                <source media="(max-width: 997px)" srcset="images/saltillo-997.jpg">
+                <img src="images/saltillo-1044.jpg" alt="Saltillo">
+            </picture>
         </div>
 
         <div class="joinUs">
@@ -65,10 +67,17 @@
             <h2>Weather</h2>
             <section >
                 <img id="iw" src="images/weather.png" alt="Weather icon">
-                <h2 >25 °C</h2>
+                <h2>
+                    <span id="temp">40</span>
+                    °F
+                </h2>
                 <h3 id="iwh3">Party Cloudy</h3>
-                <p>Wind Speed: 2.5 km/h</p>
-                <p>Wind Chill: N/A</p>
+                <p>Wind Speed: 
+                    <span id="speed">17</span>
+                    mph
+                </p>    
+                <p>Wind Chill:
+                    <span id="windchill"></span></p>
             </section>
         </div>
 
@@ -97,7 +106,7 @@
     <footer>
         <div id="dataOrder">
             <div id="info1">
-                <img id="logoFooter" src="images/chamber-of-commerce-logo-saltillo.png" alt="">
+                <img id="logoFooter" src="images/chamber-of-commerce-logo-saltillo.webp" alt="Chamber of Commerce Saltillo Footer Logo">
                 <p >Universidad Avenue 514</p>
                 <p >Saltillo, Coahuila, Mexico</p>
             </div>
@@ -125,6 +134,7 @@
     </footer>
     
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
     
 </body>
 </html>
