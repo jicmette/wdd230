@@ -12,7 +12,7 @@ header {
 }
 
 #fb {
-    width: 25%;
+    width: 40%;
     grid-column: 4/5;
 }
 
@@ -67,25 +67,8 @@ main {
     grid-row: 1/2;
 }
 
-#img-mediumLarge {
-    display: none;
-}
-
 #iw {
     width: 60%;
-}
-
-#img-large {
-    position: relative;
-    display: block;
-    margin: 1em auto;
-    width: 95%;
-    height: auto;
-    border-radius: 1em;
-}
-
-#img-small {
-    display: none;
 }
 
 #joinButton {

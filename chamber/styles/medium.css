@@ -79,26 +79,9 @@ main {
     height: auto;
 }
 
-#img-mediumLarge {
-    position: relative;
-    display: block;
-    margin: .5em auto;
-    width: 95%;
-    height: auto;
-    border-radius: 1em;
-}
-
-#img-large {
-    display: none;
-}
-
-#img-small{
-    display: none;
-}
-
 #joinButton {
-    margin-left: 72%;
-    margin-top: 40%;
+    margin-left: 75%;
+    margin-top: 27%;
 }
 
 .news {
