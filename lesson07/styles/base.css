@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: #1f2028;
+    color: #f7f8fd;
+}
+
+main {
+    display: grid;
+    margin: 1.25rem auto;
+    max-width: 800px;
+    row-gap: 2em;
+    padding: 1em;
+}
+
+img[data-src] {
+    filter: blur(3px);
+}
+
+img {
+    filter: blur(0);
+    transition: filter .6s;
+}
