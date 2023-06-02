@@ -125,6 +125,23 @@ main {
     grid-row: 6/7;
 }
 
+/*DISCOVER PAGE*/
+.discover-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1/10;
+    grid-row: 2/3;
+}
+
+.discover-pictures {
+    grid-row: 3/4;
+    grid-column: 1/10;
+}
+
+.frames img:hover {
+    box-shadow: 4.2px 8.3px 8.3px hsla(0, 2%, 24%, 0.37);
+    transform: scale(.99);
+}
+
 /*FOOTER*/
 #dataOrder {
     display: grid;
