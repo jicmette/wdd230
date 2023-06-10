@@ -391,6 +391,7 @@ form fieldset {
     border: 2px solid #181717;
     border-radius: 1em;
     background-color: #f1f1f1;
+    width: 90%;
 }
 
 form legend {
