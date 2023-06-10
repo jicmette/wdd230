@@ -122,9 +122,9 @@
                     </label>
                     
                     <label class="top">Last Name <span class="requiredF">* </span><input class="inputBox" type="text" name="fname" required></label>
-                    <label class="top">Title <input class="inputBox" type="text" name="title"> </label>
+                    <label class="top">Title <input class="inputBox" type="text" name="title" minlength="7"></label>
                     <label class="top">Email <span class="requiredF">* </span><input class="inputBox" type="email" name="email" placeholder="name@example.com" required></label>
-                    <label class="top">Cell Phone <span class="requiredF">* </span><input class="inputBox" type="tel" name="phone" pattern="[0-9]{8}" placeholder="000-000-0000" required></label>
+                    <label class="top">Cell Phone <span class="requiredF">* </span><input class="inputBox" type="tel" name="phone" maxlength="10" pattern="[0-9] {,10}" placeholder="123456789" required></label>
                 </fieldset>
 
                 <fieldset>
@@ -135,8 +135,8 @@
                     <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($200)</label>
                     <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($400)</label>
                     <label class="sbs"><input type="radio" name="membership" value="gold"> Gold ($700)</label>
-                    <label class="top">Business Description </label>
-                    <textarea name="description" id="" cols="30" rows="10" placeholder="Tell us more about your business..."></textarea>
+                    <label class="top">Business Description<textarea name="description" cols="30" rows="10" placeholder="Tell us more about your business..."></textarea></label>
+                    
                     
                     <input type="submit" value="Send my information" class="submitBtn">
                 </fieldset>

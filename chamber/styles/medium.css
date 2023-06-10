@@ -169,14 +169,14 @@ main {
 
 }
 
-#list {
-    text-align: left;
-    margin-left: 150px;
-}
-
 form input.submitBtn {
     display: block;
 }
+
+#thankyouDiv {
+    grid-column: 1/6;
+}
+
 
 }
 
