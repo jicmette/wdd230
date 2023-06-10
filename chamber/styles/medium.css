@@ -162,5 +162,11 @@ main {
     grid-template-columns: repeat(3, auto);          
 }
 
+/*JOIN PAGE*/
+#formDiv {
+    grid-column: 2/5;
+
+}
+
 }
 

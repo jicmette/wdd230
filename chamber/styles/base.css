@@ -358,6 +358,151 @@ img {
     transition: filter .6s;
 }
 
+/*JOIN PAGE*/
+#formDiv {
+    
+    background-color: #f7f8fd;
+    width: 95%;
+    height: auto;
+    border-radius: 1em;
+    margin: .5em auto;
+    padding-bottom: 2.5em;
+    align-items: center;
+    gap: 1em;
+
+}
+
+#benefits h2, p{
+    margin: .5em auto;
+    padding: .5em;
+    justify-self: center;
+}
+
+#list {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 100px;
+    margin-bottom: 2em;
+}
+
+form fieldset {
+    margin: 1em;
+    padding: 1.5em;
+    border: 2px solid #181717;
+    border-radius: 1em;
+    background-color: #f1f1f1;
+}
+
+form legend {
+    background-color: #181717;
+    color: #f7f8fd;
+    padding: .5em;
+    border-radius: 1em;
+    text-align: left;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1.17em;
+}
+
+form label.top, form div {
+    display: block;
+    color: #181717;
+    font-size: 1em;
+    padding: 1em 1em 1em 1em;
+}
+
+form label.sbs {
+    display: block;
+    padding-top: 1em;
+    color: #181717;
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+#h3Member {
+    margin: 1em 0 0 0;
+}
+
+.inputBox, textarea{
+    padding: .7em;
+    border-radius: 1.5em;
+    border: none;
+}
+
+.inputBox:focus{
+   outline: 2px solid #830D35;  
+}
+
+textarea:focus{
+    outline: 2px solid #830D35;  
+}
+
+.requiredF {
+    color: red;
+}
+
+
+form input.submitBtn {
+    border: none;
+    padding: 1em;
+    background-color: #830D35;
+    color:#fbfdf7;
+    border-radius: 1.5em;
+    margin-top: 1em;
+}
+
+form input.submitBtn:hover {
+    background-color: #181717;
+    color: #f1f1f1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: .5em auto;
+    border-radius: 1.5em;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: .8em;
+}
+
+th{
+    padding: 10px;
+    background-color: #830D35;
+    border: 1px solid #1f2028;
+    
+    color: white;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #1f2028;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #d6d4d4;
+}
+
+caption {
+    padding: 1em;
+    caption-side: bottom;
+}
+
+/*THANK YOU PAGE*/
+
+#formDiv picture {
+    align-self: center;
+    width: 90%;
+}
+
+#formDiv h1, h2 {
+    text-align: center;
+    margin-right: 2em;
+}
+
+
 /*FOOTER*/
 footer {
     background-color: #f7f8fd;

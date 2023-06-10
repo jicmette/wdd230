@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <title>Join</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img id="logo" src="images/chamber-of-commerce-logo-saltillo.webp" alt="Chamber of Commerce Saltillo Logo">
+        <button id="hamburger">&#9776;</button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <img id="fb" src="images/f_logo_RGB-Blue_58.png" alt="Facebook Logo">
+        <img id="linked" src="images/LI-In-Bug.png" alt="LinkedIn Logo">
+        
+        <span id="currentDate">
+
+        </span>
+    </header>
+    
+    <!-- MAIN -->
+    <main>
+        <div id="meet">
+
+        </div>
+
+        <div id="formDiv">
+            
+                <div id="benefits">
+                    <h2>Joining us have many benefits</h2>
+                    <p>The Chamber of Commerce Saltillo provide access to valuable resources, discounts, and relationships that help businesses save money and market their products. Joining us can boost sales and significantly improve a local business' visibility and credibility.</p>
+                    
+
+                    <h2>Benefits</h2>
+                    <ul id="list">
+                        <li>✔️ Networking Opportunities</li>
+                        <li>✔️ Streamlined Marketing</li>
+                        <li>✔️ Resources for Businesses</li>
+                        <li>✔️ Services for Businesses</li>
+                        <li>✔️ Education and Training</li>
+                    </ul>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="5">Membership Levels</th>
+                            </tr>
+                            <tr>
+                                <th>Benefits</th>
+                                <th>Non-Profit</th>
+                                <th>Bronze</th>
+                                <th>Silver</th>
+                                <th>Gold</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Sponsorship opportunities</td>
+                                <td>&#9989;</td>
+                                <td>&#9989;</td>
+                                <td>&#9989;</td>
+                                <td>&#9989;</td>
+                            </tr>
+                            <tr>
+                                <td>Free fliers and decals</td>
+                                <td>❌</td>
+                                <td>&#9989;</td>
+                                <td>&#9989;</td>
+                                <td>&#9989;</td>
+                            </tr>
+                            <tr>
+                                <td>Connection to community service</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>&#9989;</td>
+                                <td>&#9989;</td>
+                            </tr>
+
+                            <tr>
+                                <td>Business Advertisement in our Website</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>&#9989;</td>
+                                <td>&#9989;</td>
+                            </tr>
+
+                            <tr>
+                                <td>Luncheon Tickets</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>&#9989;</td>
+                            </tr>
+                
+                        </tbody>
+                        <caption>Table 1: Membership Level Comparison</caption>
+                    </table>
+                </div>
+
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">First Name <span class="requiredF">* </span><input class="inputBox" type="text" name="fname" pattern="[A-Z a-z]{5,}" required>
+                    </label>
+                    
+                    <label class="top">Last Name <span class="requiredF">* </span><input class="inputBox" type="text" name="fname" required></label>
+                    <label class="top">Title <input class="inputBox" type="text" name="title"> </label>
+                    <label class="top">Email <span class="requiredF">* </span><input class="inputBox" type="email" name="email" placeholder="name@example.com" required></label>
+                    <label class="top">Cell Phone <span class="requiredF">* </span><input class="inputBox" type="tel" name="phone" pattern="[0-9]{8}" placeholder="000-000-0000" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Business Name <span class="requiredF">* </span><input class="inputBox" type="text" name="bname" required></label>
+                    <h3 id="h3Member">Membership Level</h3>
+                    <label class="sbs"><input type="radio" name="membership" value="np"> Non-Profit (Free)</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($200)</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($400)</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold ($700)</label>
+                    <label class="top">Business Description </label>
+                    <textarea name="description" id="" cols="30" rows="10" placeholder="Tell us more about your business..."></textarea>
+                    
+                    <input type="submit" value="Send my information" class="submitBtn">
+                </fieldset>
+
+            </form>
+
+        </div>
+        
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="dataOrder">
+            <div id="info1">
+                <img id="logoFooter" src="images/chamber-of-commerce-logo-saltillo.webp" alt="Chamber of Commerce Saltillo Footer Logo">
+                <p >Universidad Avenue 514</p>
+                <p >Saltillo, Coahuila, Mexico</p>
+            </div>
+           
+            <div id="info2">
+                <p>info.saltillocc.org</p>
+                <p>+(52) 844 334 2179</p>
+                <a  class="aJoin" href="https://goo.gl/maps/8kUybDoUzubc6u1S9" target="_blank"><span class="material-symbols-outlined">
+                location_on
+                </span> Location Map</a> 
+            </div>    
+        </div>
+        <hr>
+
+        <div id="pbottom">
+            <p>&copy; <span class="currentYear"></span> Saltillo Chamber</p>
+            <p><b>Israel Carmona</b></p>
+            <p>WDD 230 Project</p>
+        </div>
+
+        <div id="lastModified">
+
+        </div>   
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    
+</body>
+</html>

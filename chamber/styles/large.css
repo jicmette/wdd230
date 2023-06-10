@@ -245,6 +245,14 @@ main {
     grid-row: 2/3;
 }
 
+/*JOIN PAGE*/
+#formDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 2/9;
+
+}
+
 /*FOOTER*/
 footer {
     width: 100%;
