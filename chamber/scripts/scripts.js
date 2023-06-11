@@ -84,4 +84,4 @@ const dayPass = Math.round((daysToVisit - lastVisit) / mSeconds);
 document.getElementById("daySince").innerHTML = `Days since last visit: ${dayPass}`;
 
 
-localStorage.setItem("dayLastVisit", today);
+localStorage.setItem("dayLastVisit", daysToVisit);
