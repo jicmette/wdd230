@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #133337;
+    color: white;
+    margin: .1em auto;
+    max-width: 75em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5em;
+}
+
+section {
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    border-radius: 1.5em;
+    margin: 1em;
+    color: #133337;
+}
+
+section img {
+    border-radius: 1.5em;
+    
+}
+
+footer {
+    margin: 2em;
+}
+
+@media (min-width: 36em) and (max-width: 62.37em) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 36em) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
