@@ -505,6 +505,45 @@ caption {
     grid-column: 2/9;
 }
 
+/*DIRECTORY PAGE*/
+
+#drh1 {
+    color: #f7f8fd;
+    text-align: center;
+}
+
+.cards {
+    display: block;
+    row-gap: 1.5em;
+    margin: 1em auto;
+    width: 90%;
+}
+
+.cards h3 {
+    color: #f7f8fd;
+    text-align: center;
+    background-color: #181717;
+    padding: .5em;
+    border-radius: 1em;
+
+}
+
+
+.cards section {
+    text-align: center;
+    padding: 1em;
+    background-color: #f7f8fd;
+    border-radius: 1.5em;
+    margin: 1em;
+    color: #830D35;
+}
+
+.cards section img {
+    border-radius: 1.5em;
+    width: 30%;
+    
+}
+
 /*FOOTER*/
 footer {
     background-color: #f7f8fd;

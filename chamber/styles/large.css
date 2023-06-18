@@ -254,6 +254,19 @@ main {
 }
 
 
+/*DIRECTORY PAGE*/
+.cards {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-column: 1/10;
+    width: 90%;
+    justify-content: center;
+}
+
+#drh1 {
+    grid-column: 1/10;
+}
+
 
 
 /*FOOTER*/
