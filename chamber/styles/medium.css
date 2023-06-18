@@ -169,6 +169,14 @@ main {
 
 }
 
+form input.submitBtn {
+    display: block;
+}
+
+#thankyouDiv {
+    grid-column: 1/6;
+}
+
 /*DIRECTORY PAGE*/
 .cards {
     grid-template-columns: 1fr;
@@ -182,15 +190,9 @@ main {
     grid-column: 1/6;
 }
 
-
-form input.submitBtn {
-    display: block;
-}
-
-#thankyouDiv {
+.buttons {
     grid-column: 1/6;
 }
-
 
 }
 

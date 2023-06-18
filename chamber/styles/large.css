@@ -267,7 +267,9 @@ main {
     grid-column: 1/10;
 }
 
-
+.buttons {
+    grid-column: 1/10;
+}
 
 /*FOOTER*/
 footer {

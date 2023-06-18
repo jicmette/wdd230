@@ -1,3 +1,23 @@
+const grid = document.querySelector('#grid');
+const list = document.querySelector('#listBtn');
+const display = document.querySelector('.cards');
+
+grid.addEventListener('click', () => {
+    display.classList.add('grid');
+    display.classList.remove('listBtn');
+});
+
+list.addEventListener('click', listCompanies);
+
+function listCompanies() {
+    display.classList.add('listBtn');
+    display.classList.remove('grid');
+
+}
+
+
+
+
 const url = './data/data.json';
 
 async function getCompaniesData() {
