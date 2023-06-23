@@ -21,18 +21,29 @@ async function apiFetch() {
 }
 
 function displayResults(weatherData) {
-  todayTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-
-  windToday.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
+    todayTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
   
-  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-  const desc = weatherData.weather[0].description;
-
-weatherIcon.setAttribute('src', iconsrc);
-weatherIcon.setAttribute('alt', desc);
-captionDesc.textContent = desc;
-
-
-}
-
-apiFetch();
+    windToday.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
+  
+    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const desc = weatherData.weather[0].description;
+  
+    weatherIcon.setAttribute("src", iconsrc);
+    weatherIcon.setAttribute("alt", desc);
+    captionDesc.textContent = desc;
+  
+    const tTemp = weatherData.main.temp.toFixed(0);
+    const wSpeed = weatherData.wind.speed.toFixed(0);
+  
+    let formula = 35.74 + 0.6215 * tTemp - 35.75 * wSpeed ** 0.16 + 0.4275 * tTemp * wSpeed ** 0.16;
+  
+    if (tTemp <= 50 && wSpeed > 3) {
+      F = formula.toFixed(1);
+    } else {
+      F = "N/A";
+    }
+  
+    document.querySelector("#windchill").innerHTML = F;
+  }
+  
+  apiFetch();
