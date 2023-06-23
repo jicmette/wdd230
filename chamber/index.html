@@ -65,18 +65,22 @@
         <div class="weather-container">
             <h2>Weather</h2>
             <section >
-                <img id="iw" src="images/weather.png" alt="Weather icon">
+                <img id="iw">
                 <h2>
-                    <span id="temp">74</span>
-                    °F
+                    <span id="temp"></span>
+                    °C
                 </h2>
-                <h3 id="iwh3">Party Cloudy</h3>
+                <h3 id="iwh3"></h3>
                 <p>Wind Speed: 
-                    <span id="speed">10</span>
+                    <span id="speed"></span>
                     mph
                 </p>    
                 <p>Wind Chill:
-                    <span id="windchill"></span></p>
+                    <span id="windchill"></span>
+                </p>
+
+
+
             </section>
         </div>
 
@@ -133,7 +137,8 @@
     </footer>
     
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/windchill.js" type="module"></script>
+    <script src="scripts/weather-main.js"></script>
     
 </body>
 </html>

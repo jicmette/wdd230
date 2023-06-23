@@ -103,6 +103,7 @@ header {
     width: 100%;
     grid-column: 5/6;
     display: block;  
+    color: #181717;
 }
 
 .navigation {
@@ -228,10 +229,23 @@ nav {
     margin: 1em auto;
 }
 
-#iw {
-    width: 50%;
+.weather-container section img {
+    width: 40%;
     justify-self: center;
     grid-column: 1/2;
+}
+
+#iwh3 {
+    text-transform: capitalize;
+    color: #f7f8fd;
+    text-align: center;
+    background-color: #830D35;
+    width: 50%;
+    padding: .5em;
+    border-radius: 1em;
+    margin: .5em auto;
+    align-self: center;
+
 }
 
 .news {
