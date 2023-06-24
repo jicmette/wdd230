@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-    background-color: #8a2144;
+    background-color: #830D35;
     color: #f7f8fd;
     border-radius: .5em;
     transition: .5s;
@@ -64,7 +64,7 @@ header {
 }
 
 #currentDate {
-    background-color: #8a2144;
+    background-color: #830D35;
     color: #f7f8fd;
     text-align: center;
     padding: .5em;
@@ -122,7 +122,7 @@ header {
 
 .navigation li a {
 	padding: 1.15rem;
-	color: #fff;
+	color: #f7f8fd;
     border-radius: 1.5em;
 }
 
@@ -183,7 +183,7 @@ nav {
 
 #meet {
     background-color: #181717;
-    color: #fbfdf7;
+    color: #f7f8fd;
     text-align: center;
     padding: .5em;
     width: 95%;
@@ -208,7 +208,7 @@ nav {
 .aJoin {
     display: block;
     text-align: center;
-    background-color: #8a2144;
+    background-color: #830D35;
     color: #f7f8fd;
     margin: 1em;
     border-radius: 1.5em;
@@ -405,7 +405,7 @@ form fieldset {
     padding: 1.5em;
     border: 2px solid #181717;
     border-radius: 1em;
-    background-color: #f1f1f1;
+    background-color: #f7f8fd;
     
 }
 
@@ -467,14 +467,14 @@ form input.submitBtn {
     border: none;
     padding: 1em;
     background-color: #830D35;
-    color:#fbfdf7;
+    color:#f7f8fd;
     border-radius: 1.5em;
     margin-top: 1em;
 }
 
 form input.submitBtn:hover {
     background-color: #181717;
-    color: #f1f1f1;
+    color: #f7f8fd;
 }
 
 table {
@@ -528,71 +528,86 @@ caption {
 
 .buttons {
     background-color: #f7f8fd;
+    color: #181717;
     width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 1.5em;
     margin: .5em auto;
-    width: 50%;
     font-size: 1.5em;
 }
 
-#grid {
+.buttons button {
     background-color: transparent;
     border: none;
+    align-items: center;
     padding: 1em;
 }
 
-#grid:hover {
+.buttons button:hover {
     cursor: pointer;
     background-color: #181717;
     color: #f7f8fd;
     border-radius: 1.5em;
 }
 
-#listBtn{
-    background-color: transparent;
-    border: none;
+.gridView {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
 }
 
-#listBtn:hover {
-    cursor: pointer;
-    background-color: #181717;
-    color: #f7f8fd;
-    border-radius: 1.5em;
+#gridBtn {
+    grid-column: 1/10;
+    grid-row: 1/2;
 }
 
-.cards {
-    display: block;
-    row-gap: 1.5em;
-    margin: 1em auto;
+.gridView section {
     width: 90%;
-}
-
-.cards h3 {
-    color: #f7f8fd;
-    text-align: center;
-    background-color: #181717;
-    padding: .5em;
-    border-radius: 1em;
-
-}
-
-
-.cards section {
-    text-align: center;
-    padding: 1em;
     background-color: #f7f8fd;
     border-radius: 1.5em;
-    margin: 1em;
-    color: #830D35;
+    text-align: center;
+    margin: .1em auto;
+    max-width: 75em;
 }
 
-.cards section img {
-    border-radius: 1.5em;
-    width: 30%;
-    
+.gridView h3 {
+    color: #f7f8fd;
+    background-color: #181717;
+    width: 50%;
+    border-radius: 1em;
+    margin: 0.5em auto;
+    padding: 1em;
 }
+
+.gridView img {
+    width: 40%;
+    border-radius: 1em;
+}
+
+.listView {
+	display: flex;
+	flex-direction: column;
+    grid-column: 1/10;
+    background-color: #f7f8fd;
+    border-radius: 1.5em;
+    margin: .1em auto;
+    max-width: 75em;
+    width: 90%;
+    text-align: center;
+    line-height: .5em;
+}
+
+.listView section:nth-child(even) {
+	background-color: #d6d4d4;
+}
+
+.listView img {
+    display: none;
+}
+
+
+
 
 /*FOOTER*/
 footer {

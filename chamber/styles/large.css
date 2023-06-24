@@ -255,12 +255,14 @@ main {
 
 
 /*DIRECTORY PAGE*/
-.cards {
+.gridView {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-column: 1/10;
     width: 90%;
     justify-content: center;
+    margin: .1em auto;
+    max-width: 75em;
 }
 
 #drh1 {
@@ -269,8 +271,18 @@ main {
 
 .buttons {
     grid-column: 1/10;
+    align-items: center;
 }
 
+#listBtn {
+    grid-column: 2/6;
+    grid-row: 1/2;
+}
+
+#gridBtn {
+    grid-template-columns: 1fr;
+    grid-column: 1/2;
+}
 /*FOOTER*/
 footer {
     width: 100%;

@@ -1,21 +1,19 @@
-const grid = document.querySelector('#grid');
-const list = document.querySelector('#listBtn');
+const gridBtn = document.querySelector('.gridView');
+const listBtn = document.querySelector('.listView');
 const display = document.querySelector('.cards');
 
-grid.addEventListener('click', () => {
-    display.classList.add('grid');
-    display.classList.remove('listBtn');
+gridBtn.addEventListener('click', () => {
+    display.classList.add('gridView');
+    display.classList.remove('listView');
 });
 
-list.addEventListener('click', listCompanies);
+listBtn.addEventListener('click', listCompanies);
 
 function listCompanies() {
-    display.classList.add('listBtn');
-    display.classList.remove('grid');
+    display.classList.add('listView');
+    display.classList.remove('gridView');
 
 }
-
-
 
 
 const url = './data/data.json';
@@ -38,6 +36,7 @@ const displayCompanies = (companies) => {
         let id = document.createElement('p');
         let address = document.createElement('p');
         let phone = document.createElement('p');
+        let membership = document.createElement('p');
         let website = document.createElement('p');
 
         image.setAttribute('src', company.logo);
@@ -46,7 +45,9 @@ const displayCompanies = (companies) => {
         h3.textContent = company.name;
         id.textContent = `ID: ${company.id}`;
         address.textContent = company.address;
+        membership.textContent = `Membership Level: ${company.mLevel}`;
         phone.textContent = `Phone Number: +52 ${company.phone}`;
+
         website.textContent = `Website: ${company.website}`;
 
         card.appendChild(h3);
@@ -55,10 +56,10 @@ const displayCompanies = (companies) => {
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website);
+        card.appendChild(membership);
         cards.appendChild(card);
 
     });
 }
-
 
 getCompaniesData();

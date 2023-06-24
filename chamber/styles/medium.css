@@ -178,21 +178,33 @@ form input.submitBtn {
 }
 
 /*DIRECTORY PAGE*/
-.cards {
-    grid-template-columns: 1fr;
+
+.gridView {
     grid-column: 1/6;
-    width: 90%;
-    margin: 1.5em auto;
-    justify-items: center;
+    gap: 2em;
 }
+
+#listBtn {
+    grid-column: 2/6;
+    grid-row: 1/2;
+}
+
+#gridBtn {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.buttons {
+    grid-column: 1/6;
+    text-align: center;
+}
+
+
 
 #drh1 {
     grid-column: 1/6;
 }
 
-.buttons {
-    grid-column: 1/6;
-}
 
 }
 
