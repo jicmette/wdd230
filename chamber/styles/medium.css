@@ -10,19 +10,29 @@ header {
     grid-template-columns: 70% 10% 10% 10%;
 }
 
+#logo img {
+    width: 50%;
+}
+
 #logo {
-    width: 40%;
     justify-self: start;
     grid-row: 1/2;
     margin-left: 1.5em;
 }
 
+#fb img{
+    width: 70%;
+}
+
 #fb {
-    justify-self: center;
+    justify-items: center;
     grid-column: 2/3;
     grid-row: 1/2;
 }
 
+#linked img {
+    width: 70%;
+}
 #linked {
     justify-self: center;
     grid-row: 1/2;

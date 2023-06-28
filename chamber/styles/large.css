@@ -4,16 +4,32 @@
 header {
     width: 100%;
     grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto)
+}
+
+#logo {
+    grid-column: 1/2;
+}
+
+#logo img {
+    width: 100%;
 }
 
 #linked {
     grid-column: 5/6;
+}
+
+#linked img {
     width: 25%;
 }
 
+
 #fb {
-    width: 40%;
     grid-column: 4/5;
+}
+
+#fb img {
+    width: 40%;
 }
 
 /*NAV BAR*/
@@ -23,6 +39,7 @@ header {
 
 nav {
     grid-column: 3/4;
+    grid-row: 1/2;
     align-self: center;
     justify-self: center;
 }
@@ -44,6 +61,7 @@ nav {
 }
 
 .navigation li a {
+    background-color: #f7f8fd;
 	color: #830D35;
 }
 

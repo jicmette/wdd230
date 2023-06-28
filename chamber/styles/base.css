@@ -19,22 +19,6 @@ hr {
     border-top: 1px solid #830D35;
 }
 
-a {
-    text-decoration: none;
-    color: #830D35;
-    margin: 0;
-    padding: 1em;
-    height: auto;
-    align-self: center;
-}
-
-a:hover {
-    background-color: #830D35;
-    color: #f7f8fd;
-    border-radius: .5em;
-    transition: .5s;
-}
-
 p {
     display: block;
     width: 95%;
@@ -49,7 +33,7 @@ p {
 header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    justify-items: center;
+    grid-template-rows: repeat(3, auto);
     background-color: #f7f8fd;
     padding: 1em;
     width: 95%;
@@ -59,41 +43,58 @@ header {
 }
 
 #logo {
-    width: 100%;
     grid-column: 1/3;
+    align-self: center;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#fb {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    align-self: center;  
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+#fb img {
+    width: 40%;
+}
+
+#linked {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    align-self: center;
+    text-align: center;
+}
+
+#linked img {
+    width: 40%;
 }
 
 #currentDate {
     background-color: #830D35;
     color: #f7f8fd;
     text-align: center;
+    justify-self: center;
+    align-self: center;
     padding: .5em;
     width: 70%;
-    height: 2em;
-    margin-top: .5em;
     border-radius: 1em;
     grid-column: 1/6;
+    grid-row: 3/4;
 }
 
-#fb {
-    width: 40%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    align-self: center;   
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
 
-#linked {
-    width: 40%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    align-self: center; 
-    grid-column: 4/5;
-    grid-row: 1/2;
-}
+
+
 
 /*NAV BAR*/
 #hamburger {
@@ -101,7 +102,6 @@ header {
     border: none;
     font-size: 2em;
     width: 100%;
-    grid-column: 5/6;
     display: block;  
     color: #181717;
 }
@@ -132,6 +132,13 @@ header {
 
 .navigation.responsive li a {
     display: block; 
+    background-color: #181717;
+    margin: .5em;
+}
+
+.navigation.responsive li a:hover {
+    display: block; 
+    background-color: #830D35;
 }
 
 nav {
@@ -212,11 +219,15 @@ nav {
     color: #f7f8fd;
     margin: 1em;
     border-radius: 1.5em;
+    text-decoration: none;
+    padding: 1em;
+    align-self: center;
 }
 
 .aJoin:hover {
     background-color: black;
     border-radius: .5em;
+    color: #f7f8fd;
     transition: .7s;
 }
 
@@ -605,8 +616,6 @@ caption {
 .listView img {
     display: none;
 }
-
-
 
 
 /*FOOTER*/
