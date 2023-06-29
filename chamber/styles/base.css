@@ -29,6 +29,12 @@ p {
     text-align: center;
 }
 
+#active {
+    background-color: #830D35;
+    border-radius: .5em;
+    color: #f7f8fd;
+}
+
 /*HEADER*/
 header {
     display: grid;
@@ -177,7 +183,6 @@ nav {
     margin-top: 60%;
     border: none;
     border-radius: 1em;
-    box-shadow: 1px 2px #181717;
     cursor: pointer;
 }
 
@@ -484,8 +489,10 @@ form input.submitBtn {
 }
 
 form input.submitBtn:hover {
-    background-color: #181717;
+    background-color: black;
+    border-radius: .5em;
     color: #f7f8fd;
+    transition: .7s;
 }
 
 table {
@@ -532,7 +539,7 @@ caption {
 
 /*DIRECTORY PAGE*/
 
-#drh1 {
+.drh1 {
     color: #f7f8fd;
     text-align: center;
 }
@@ -615,6 +622,65 @@ caption {
 
 .listView img {
     display: none;
+}
+
+/* CONTACT PAGE */
+
+
+#drh2 {
+    color: #f7f8fd;
+    text-align: center;
+}
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+    height: auto;
+    padding: 1em;
+    border-radius: 1em;
+    margin: .5em auto;
+    grid-column: 1/10;
+}
+
+#section1 {
+    background-color: #f7f8fd;
+    padding: 1em;
+    border-radius: 1.5em;
+    width: 95%;
+    margin: .5em auto;
+    text-align: center;
+    
+}
+
+#section2 {
+    background-color: #f7f8fd;
+    padding: 1em;
+    border-radius: 1.5em;
+    width: 95%;
+    margin: .5em auto;
+    
+    text-align: center;
+}
+
+#section3 {
+    background-color: #f7f8fd;
+    padding: 1em;
+    border-radius: 1.5em;
+    width: 95%;
+    height: auto;
+    margin: .5em auto;
+    
+    text-align: center;
+}
+
+
+
+iframe {
+    margin: 1.5em auto;
+    text-align: center;
+    width: 95%;
+    border-radius: 1.5em;
+    border:4px solid #181717;
 }
 
 

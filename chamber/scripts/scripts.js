@@ -17,7 +17,7 @@ if (day == 1 || day == 2){
 } 
 
 else if (day == 3){
-  meet = "💼 Todays is our meeting, we wait for you at 7:00 p.m. Don't forget it!" 
+  meet = "💼 Today is our meeting, we wait for you at 7:00 p.m. Don't forget it!" 
 }
 
 else if (day == 0 || day == 5 || day == 6)

@@ -32,6 +32,12 @@ header {
     width: 40%;
 }
 
+#active {
+    background-color: black;
+    border-radius: .5em;
+    color: #f7f8fd;
+}
+
 /*NAV BAR*/
 #hamburger {
     display: none;
@@ -301,6 +307,17 @@ main {
     grid-template-columns: 1fr;
     grid-column: 1/2;
 }
+
+
+/*CONTACT PAGE*/
+
+#drh2 {
+    grid-column: 1/10;
+
+}
+    
+
+
 /*FOOTER*/
 footer {
     width: 100%;

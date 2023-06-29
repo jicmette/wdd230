@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" id="logo"><img src="images/chamber-of-commerce-logo-saltillo.webp" alt="Chamber of Commerce Saltillo Logo"></a>
+        <button id="hamburger">&#9776;</button>
+        <nav>
+            <ul class="navigation">
+                <li><a class="aJoin" href="discover.html">Discover</a></li>
+                <li><a class="aJoin" href="directory.html">Directory</a></li>
+                <li><a class="aJoin" href="join.html">Join</a></li>
+                <li><a id="active" class="aJoin" href="#">Contact</a></li>
+                </ul>
+        </nav>
+        
+        <a href="#" id="fb"><img src="images/f_logo_RGB-Blue_58.png" alt="Facebook Logo"></a>
+        <a href="#" id="linked"><img src="images/LI-In-Bug.png" alt="LinkedIn Logo"></a>
+        
+        <span id="currentDate">
+
+        </span>
+    </header>
+    
+    <!-- MAIN -->
+    <main>
+        <div id="meet">
+
+        </div>
+
+        <h1 id="drh2">Contact Us</h1>
+        <div class="contact-info">
+            <section id="section1">
+                <h2>Chamber of Commerce Saltillo</h2>
+                <h2>Visit Us</h2>
+                <p>Universidad Avenue 514, Saltillo, Coahuila. Mexico.</p>
+                <p><b>Monday - Friday:</b> 9:00 a.m. to 5:00 p.m.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d636.9015283769563!2d-100.99714085356513!3d25.442973174574636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86886d594e5ab90d%3A0xc638d565a09d7e35!2sCanaco%20Saltillo!5e0!3m2!1sen!2smx!4v1688064974868!5m2!1sen!2smx" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <section id="section2">
+                <h2>Points of Contact</h2>
+                <h3>Roberto Castilla - President</h3>
+                <p>(844) 365-4326 ext. 102</p>
+
+                <hr>
+                <h3>Susana Ortiz - Vice President</h3>
+                <p>(844) 365-4326 ext. 103</p>
+                <hr>
+                <h3>Alejandra Hernandez - Membership Manager</h3>
+                <p>(844) 365-4326 ext. 107</p>
+                <hr>
+                <h3>Gilberto Martinez - Operations Assitant</h3>
+                <p>(844) 365-4326 ext. 110</p>
+            </section>
+
+            <section id="section3">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Get in Touch</legend>
+                        <label class="">First Name <span class="requiredF">* </span><input class="inputBox" type="text" name="fname" placeholder="Jose" pattern="[A-Z a-z]{5,}" required></label>
+                        <label class="top">Last Name <span class="requiredF">* </span><input class="inputBox" type="text" name="fname" placeholder="Hernandez" required></label>
+                        <label class="top">Email <span class="requiredF">* </span><input class="inputBox" type="email" name="email" placeholder="name@example.com" required></label>
+                        <label class="top">Company Name <span class="requiredF">* </span><input class="inputBox" type="text" name="company" placeholder="Company, Inc." required></label>
+                        <label class="top">Are you a Chamber Member?</label>
+                        <label class="sbs"><input type="radio" name="question" value="np"> Yes</label>
+                        <label class="sbs"><input type="radio" name="question" value="bronze"> No</label>
+                        <label class="sbs"><input type="radio" name="question" value="silver"> I am not sure</label>
+                        <label class="top">What questions do you have for the Saltillo Chamber?</label>
+                        <label class="top"><textarea name="description" cols="30" rows="10" placeholder="Write your questions here..."></textarea></label>
+                        <input type="submit" value="Send my information" class="submitBtn">
+                    </fieldset>
+                    
+                </form>
+            </section>
+            
+        </div>
+
+
+
+        
+        
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="dataOrder">
+            <div id="info1">
+                <img id="logoFooter" src="images/chamber-of-commerce-logo-saltillo.webp" alt="Chamber of Commerce Saltillo Footer Logo">
+                <p >Universidad Avenue 514</p>
+                <p >Saltillo, Coahuila, Mexico</p>
+            </div>
+           
+            <div id="info2">
+                <p>info.saltillocc.org</p>
+                <p>+(52) 844 334 2179</p>
+                <a  class="aJoin" href="https://goo.gl/maps/8kUybDoUzubc6u1S9" target="_blank"><span class="material-symbols-outlined">
+                location_on
+                </span> Location Map</a> 
+            </div>    
+        </div>
+        <hr>
+
+        <div id="pbottom">
+            <p>&copy; <span class="currentYear"></span> Saltillo Chamber</p>
+            <p><b>Israel Carmona</b></p>
+            <p>WDD 230 Project</p>
+        </div>
+
+        <div id="lastModified">
+
+        </div>
+        
+        <div id="daySince">
+
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+    
+</body>
+</html>

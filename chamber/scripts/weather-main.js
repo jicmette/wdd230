@@ -37,7 +37,7 @@ function displayResults(weatherData) {
   
     let formula = 35.74 + 0.6215 * tTemp - 35.75 * wSpeed ** 0.16 + 0.4275 * tTemp * wSpeed ** 0.16;
   
-    if (tTemp <= 50 && wSpeed > 3) {
+    if (tTemp <= 10 && wSpeed > 4.8) {
       F = formula.toFixed(1);
     } else {
       F = "N/A";
