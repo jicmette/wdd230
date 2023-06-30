@@ -15,11 +15,10 @@ function listCompanies() {
 
 }
 
-
-const url = './data/data.json';
+const storage = './data/data.json';
 
 async function getCompaniesData() {
-    const response = await fetch(url);
+    const response = await fetch(storage);
     const data = await response.json();
     displayCompanies(data.companies);
     
@@ -61,5 +60,32 @@ const displayCompanies = (companies) => {
 
     });
 }
+
+async function spotlightFetch() {
+    try {
+      const response = await fetch('./data/data.json');
+      if (response.ok) {
+        const dataSpot = await response.json();
+        console.log(dataSpot); // this is for testing the call)
+        displaySpotlight(data.companies);
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+
+  function displaySpotlight(companies) {
+    const membersrdn = [];
+    
+    companies.forEach(member => {
+        if(member.mLevel == "Gold" || member.mLevel == "Silver"){
+            membersrdn.push(member);
+        }
+  }
+  )};
+
+  
 
 getCompaniesData();

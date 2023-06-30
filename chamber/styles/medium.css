@@ -140,17 +140,24 @@ main {
 .discover-container {
     grid-template-columns: repeat(2, 1fr);
     grid-column: 1/10;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 .discover-pictures {
-    grid-row: 3/4;
+    grid-row: 4/5;
     grid-column: 1/10;
 }
 
 .frames img:hover {
     box-shadow: 4.2px 8.3px 8.3px hsla(0, 2%, 24%, 0.37);
     transform: scale(.99);
+}
+
+/*CONTACT PAGE*/
+.drh1 {
+    grid-row: 2/3;
+    grid-column: 1/6;
+    font-size: 3em;
 }
 
 /*FOOTER*/

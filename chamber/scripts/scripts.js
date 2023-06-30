@@ -73,3 +73,9 @@ document.querySelector(".currentYear").innerText = year;
 //Last Modified
 let update = document.lastModified;
 document.getElementById("lastModified").innerHTML = `Last Modification: ${update}`;
+
+
+//Join Page button date in thank for thank you page
+function dateFunc() {
+  return document.getElementById("infoSent").innerHTML = Date();
+}
