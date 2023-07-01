@@ -591,11 +591,6 @@ caption {
     gap: 1em;
 }
 
-#gridBtn {
-    grid-column: 1/10;
-    grid-row: 1/2;
-}
-
 .gridView section {
     width: 90%;
     background-color: #f7f8fd;
@@ -633,7 +628,7 @@ caption {
 }
 
 .listView section:nth-child(even) {
-	background-color: #d6d4d4;
+	background-color: #dfdfdf;
 }
 
 .listView img {

@@ -1,6 +1,6 @@
-const gridBtn = document.querySelector('.gridView');
-const listBtn = document.querySelector('.listView');
-const display = document.querySelector('.cards');
+const gridBtn = document.querySelector('#gridView');
+const listBtn = document.querySelector('#listView');
+const display = document.querySelector('#cards');
 
 gridBtn.addEventListener('click', () => {
     display.classList.add('gridView');
@@ -26,7 +26,7 @@ async function getCompaniesData() {
 
 
 const displayCompanies = (companies) => {
-    const cards = document.querySelector('div.cards');
+    const cards = document.querySelector('#cards');
 
     companies.forEach((company) => {
         let card = document.createElement('section');
