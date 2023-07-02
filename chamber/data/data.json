@@ -7,6 +7,7 @@
             "address": "Av. La Salle 671 Local 5 Col. La Salle, Saltillo, Coah. México.",
             "phone": "844 383 7650",
             "website": "www.nexbitek.com",
+            "quote": "A bit more for your computer!",
             "mLevel": "Gold"
         },
         {
@@ -15,7 +16,8 @@
             "id": 5234,
             "address": "Dr. Manuel Ortíz de Montellano 129, Saltillo, Mexico",
             "phone": "844 160 0629",
-            "website": "N/A",
+            "website": "www.blag-media.com",
+            "quote": "The advertising that you need!",
             "mLevel": "Silver"
         },
         {
@@ -25,6 +27,7 @@
             "address": "Periferico Luis Echeverria 985, Col. Latinoamericana, Saltillo Coahuila",
             "phone": "844 416 2114",
             "website": "store.hccomputadoras.com",
+            "quote": "Your computer needs a chance!",
             "mLevel": "Gold"
         },
         {
@@ -33,8 +36,9 @@
             "id": 8920,
             "address": "Pedro Figueroa #581, Saltillo, Mexico",
             "phone": "844 287 5856",
-            "website": "N/A",
-            "mLevel": "Bronze"
+            "website": "www.smashburgers.mx",
+            "quote": "The best ones in town!",
+            "mLevel": "Silver"
         },
         {
             "logo":"data:image/png;base64,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",
@@ -42,7 +46,8 @@
             "id": 5738,
             "address": "Saltillo, Coahuila",
             "phone": "844 105 1526",
-            "website": "N/A",
+            "website": "www.comisainmobiliaria.com",
+            "quote": "The home of your dreams!",
             "mLevel": "Gold"
         },
         {
@@ -52,7 +57,8 @@
             "address": "Carretera San Antonio De Las Alazanas - Mesa de las Tablas KM 32 sin num Sierra de Arteaga, Coahuila, Mexico, 25370",
             "phone": "844 438 8170",
             "website": "www.monterreal.com",
-            "mLevel": "Gold"
+            "quote": "Clean your lungs with our air!",
+            "mLevel": "Bronze"
         },
         {
             "logo":"https://mesonprincipal.com/wp-content/uploads/2019/03/logo.png",
@@ -61,6 +67,7 @@
             "address": "Boulevard V Carranza y Avenida Egipto s/n, Saltillo, Mexico",
             "phone": "844 415 0015",
             "website": "mesonprincipal.com",
+            "quote": "Tradition to your table!",
             "mLevel": "Silver"
         },
         {
@@ -78,7 +85,8 @@
             "id": 8293,
             "address": "Blvd. La Gran Via 1454, Col. Parque Centro, Saltillo, Mexico",
             "phone_number": "844 688 4545",
-            "website": "N/A",
+            "website": "www.ilmercato-gentiloni.mx",
+            "quote": "Italy comes to you!",
             "mLevel": "Silver"
         }
 
