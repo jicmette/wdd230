@@ -220,12 +220,5 @@ form input.submitBtn {
 #drh1 {
     grid-column: 1/6;
 }
-
-/* #gridStart {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-} */
-
 }
 
