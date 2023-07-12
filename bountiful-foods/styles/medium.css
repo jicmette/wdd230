@@ -1,0 +1,31 @@
+@media (min-width: 36em) and (max-width: 62.37em)  { 
+    
+    #logo img {
+        width: 25%;
+    }
+
+    #logoFooter img{
+        width: 20%;
+    }
+
+    #logoFb img{
+        width: 20%;
+    }
+
+    #logoFb:hover, #logoIg:hover, #logoYt:hover, #logoLi:hover{
+        box-shadow: inset 200px 0 0 0 #0d250a;
+    }
+
+    #logoIg img{
+        width: 20%;
+    }
+
+    #logoYt img{
+        width: 20%;
+    }
+
+    #logoLi img{
+        width: 20%;
+    }
+    
+}
