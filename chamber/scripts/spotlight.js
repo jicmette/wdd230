@@ -16,8 +16,10 @@ async function fetchSpotlight() {
   }
 
   function randomCompanies(array, count) {
+    const two = 2;
     const randomCompany = array.sort(() => 0.5 - Math.random());
-    return randomCompany.slice(0, count);
+    const finalTwo = randomCompany.slice(0, two);
+    return finalTwo;
   }
 
 }
@@ -50,7 +52,7 @@ async function fetchSpotlight() {
       card.appendChild(phone);
       card.appendChild(website);
 
-      card.appendChild(card);
+      cards.appendChild(card);
     });
 };
 

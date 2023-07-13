@@ -31,6 +31,25 @@
     
     <main>
 
+        <section id="section3">
+            <form method="get" action="thankyou.html" target="_blank">
+                <fieldset>
+                    <legend>Get in Touch</legend>
+                    <label class="">First Name <span class="requiredF">* </span><input class="inputBox" type="text" name="fname" placeholder="Jose" pattern="[A-Z a-z]{5,}" required></label>
+                    <label class="top">Email <span class="requiredF">* </span><input class="inputBox" type="email" name="email" placeholder="name@example.com" required></label>
+                    <label class="top">Phone Number <span class="requiredF">* </span><input class="inputBox" type="tel" name="phone" maxlength="10" pattern="[0-9] {,10}" placeholder="123456789" required></label>
+                    <label class="top">Are you a Chamber Member?</label>
+                    <label class="sbs"><input type="radio" name="question" value="np"> Yes</label>
+                    <label class="sbs"><input type="radio" name="question" value="bronze"> No</label>
+                    <label class="sbs"><input type="radio" name="question" value="silver"> I am not sure</label>
+                    <label class="top">Special Instructions</label>
+                    <label class="top"><textarea name="description" cols="30" rows="10" placeholder="Please make us know if you have extra details..."></textarea></label>
+                    <input type="submit" value="Send my information" class="submitBtn">
+                </fieldset>
+                
+            </form>
+        </section>
+
         
     </main>
 
