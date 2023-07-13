@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Fresh</title>
 </head>
 <body>
@@ -31,25 +32,39 @@
     
     <main>
 
-        <section id="section3">
-            <form method="get" action="thankyou.html" target="_blank">
+        <section id="">
+            <h1>Fruit Drink Mix Creator</h1>
+
+            <div class="wrapper">
+                <i class="fa-solid fa-angle-left"></i>
+                <div class="carousel">
+                    <img src="https://images.unsplash.com/photo-1502741224143-90386d7f8c82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Strawberry">
+                    <img src="https://images.unsplash.com/photo-1528498033373-3c6c08e93d79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=685&q=80" alt="Kiwi">
+                    <img src="https://images.unsplash.com/photo-1542444592-e6880e286bb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=661&q=80" alt="Banana">
+                    <img src="https://images.unsplash.com/photo-1622597467821-df79dcb4f94d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Orange">
+                    <img src="https://images.unsplash.com/photo-1588929473475-d16ffd5d068c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Blueberry">
+                    <img src="https://images.unsplash.com/photo-1546173159-315724a31696?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Mango">
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <form>
                 <fieldset>
-                    <legend>Get in Touch</legend>
+                    <legend>Let us know what's your favorites!</legend>
                     <label class="">First Name <span class="requiredF">* </span><input class="inputBox" type="text" name="fname" placeholder="Jose" pattern="[A-Z a-z]{5,}" required></label>
                     <label class="top">Email <span class="requiredF">* </span><input class="inputBox" type="email" name="email" placeholder="name@example.com" required></label>
                     <label class="top">Phone Number <span class="requiredF">* </span><input class="inputBox" type="tel" name="phone" maxlength="10" pattern="[0-9] {,10}" placeholder="123456789" required></label>
-                    <label class="top">Are you a Chamber Member?</label>
+                    <label class="top">Choose between our 39 fruits!</label>
                     <label class="sbs"><input type="radio" name="question" value="np"> Yes</label>
                     <label class="sbs"><input type="radio" name="question" value="bronze"> No</label>
                     <label class="sbs"><input type="radio" name="question" value="silver"> I am not sure</label>
                     <label class="top">Special Instructions</label>
                     <label class="top"><textarea name="description" cols="30" rows="10" placeholder="Please make us know if you have extra details..."></textarea></label>
-                    <input type="submit" value="Send my information" class="submitBtn">
+                    <input type="submit" value="Send my Fruit Drink Mix!" class="submitBtn">
                 </fieldset>
                 
             </form>
         </section>
-
         
     </main>
 

@@ -1,25 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 /*GENERAL*/
-
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: rgb(255, 255, 255);
-  
+
   color: #323538;
 }
 
+h1,
+h2,
+h3,
+p {
+  font-family: "Rubik", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
 
+p {
+  font-size: 1.2rem;
+}
 
+/*HEADER*/
 header {
   display: grid;
   grid-template-columns: 70% 30%;
   width: 100%;
   height: auto;
-  background-color: rgb(255,255,255)
+  background-color: rgb(255, 255, 255);
 }
 
 ul {
@@ -53,6 +67,128 @@ ul {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/*FOOTER*/
+footer {
+  background-color: #285821;
+  padding: 2rem;
+}
+
+#footer-logo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 5% 1fr;
+}
+
+#fresh-link {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+}
+
+#fresh-link:hover,
+#about-link:hover {
+  background-color: #0d250a;
+  color: #f69b32;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#logoFooter {
+  grid-column: 2/4;
+  text-align: center;
+}
+
+#logoFooter img {
+  width: 40%;
+}
+
+#logoFb {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  text-align: center;
+  align-self: center;
+}
+
+#logoFb img {
+  width: 30%;
+}
+
+#logoIg {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  text-align: center;
+  align-self: center;
+}
+
+#logoIg img {
+  width: 30%;
+}
+
+#logoYt {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  text-align: center;
+  align-self: center;
+}
+
+#logoYt img {
+  width: 40%;
+}
+
+#logoLi {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  text-align: center;
+  align-self: center;
+}
+
+#logoLi img {
+  width: 30%;
+}
+
+#logoFb:hover,
+#logoIg:hover,
+#logoYt:hover,
+#logoLi:hover {
+  transition: 0.8s;
+  padding-top: 0.2rem;
+  box-shadow: inset 110px 0 0 0 #0d250a;
+  border-radius: 1.5rem;
+}
+
+#about-link {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+}
+
+hr {
+  grid-column: 1/5;
+  grid-row: 2/3;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+#bountFoods {
+  color: #ffffff;
+}
+
+#pbottom {
+  background-color: #0d250a;
+  color: #ffffff;
+  border-radius: 1.5rem;
+}
+
+/*HOME PAGE*/
 #main-pic img {
   width: 100%;
   height: 200hv;
@@ -109,22 +245,6 @@ ul {
   text-align: center;
 }
 
-h1,
-h2,
-h3,
-p {
-  font-family: "Rubik", sans-serif;
-  width: 80%;
-  margin: 0 auto;
-  padding: 1rem;
-  line-height: 1.5;
-  text-align: center;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
 .pic-sec2 img {
   width: 85%;
   border-radius: 1.5rem;
@@ -136,124 +256,58 @@ p {
   height: auto;
 }
 
-footer {
-  background-color: #285821;
-  padding: 2rem;
+/*FRESH PAGE*/
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 3rem;
+  max-width: auto;
+  background-color: #f69b32;
+
 }
 
-#footer-logo {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 5% 1fr;
-}
-
-#fresh-link {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  align-self: center;
-  justify-self: center;
-  color: #ffffff;
-  font-family: "Rubik", sans-serif;
-  text-decoration: none;
-}
-
-#fresh-link:hover,
-#about-link:hover {
-  background-color: #0d250a;
+.wrapper i {
+  height: 46px;
   color: #f69b32;
-  border-radius: 1.5rem;
-  padding: 1rem;
+  width: 46px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 46px;
+  background-color: #0d250a;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-#logoFooter {
-  grid-column: 2/4;
-  text-align: center;
+.wrapper i:first-child {
+  left: 1rem;
 }
 
-#logoFooter img {
-  width: 40%;
+.wrapper i:first-child {
+  right: 100px;
 }
 
-#logoFb {
-  grid-column: 1/2;
-  grid-row: 3/4;
-  text-align: center;
-  align-self: center;
+.wrapper .carousel {
+  white-space: nowrap;
+  font-size: 0;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-#logoFb img {
-  width: 30%;
-}
-
-#logoIg {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    text-align: center;
-    align-self: center;
-  }
-  
-  #logoIg img {
-    width: 30%;
-  }
-  
-  #logoYt {
-    grid-column: 3/4;
-    grid-row: 3/4;
-    text-align: center;
-    align-self: center;
-  }
-  
-  #logoYt img {
-    width: 40%;
-  }
-  
-  #logoLi {
-    grid-column: 4/5;
-    grid-row: 3/4;
-    text-align: center;
-    align-self: center;
-  }
-  
-  #logoLi img {
-    width: 30%;
-  }
-
-#logoFb:hover,
-#logoIg:hover,
-#logoYt:hover,
-#logoLi:hover {
-  transition: 0.8s;
-  padding-top: 0.2rem;
-  box-shadow: inset 110px 0 0 0 #0d250a;
+.carousel img {
+  height: 340px;
+  object-fit: cover;
+  margin-left: 1rem;
   border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
-
-#about-link {
-  grid-column: 4/5;
-  grid-row: 1/2;
-  align-self: center;
-  justify-self: center;
-  color: #ffffff;
-  font-family: "Rubik", sans-serif;
-  text-decoration: none;
-}
-
-hr {
-  grid-column: 1/5;
-  grid-row: 2/3;
-  width: 80%;
-  margin-bottom: 2rem;
-}
-
-#bountFoods {
-  color: #ffffff;
-}
-
-#pbottom {
-  background-color: #0d250a;
-  color: #ffffff;
-  border-radius: 1.5rem;
+.carousel img:first-child {
+  margin-left: 0pc;
 }
