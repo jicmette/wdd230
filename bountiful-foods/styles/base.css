@@ -263,7 +263,7 @@ hr {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 3rem;
+  padding: 2rem;
   max-width: auto;
   background-color: #f69b32;
 }
@@ -311,7 +311,8 @@ hr {
 }
 
 .carousel img {
-  height: 340px;
+  width: 100%;
+  height: 30rem;
   object-fit: cover;
   margin-left: 1rem;
   border-radius: 1.5rem;
