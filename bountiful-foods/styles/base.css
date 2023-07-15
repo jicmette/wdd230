@@ -266,7 +266,6 @@ hr {
   padding: 3rem;
   max-width: auto;
   background-color: #f69b32;
-
 }
 
 .wrapper i {
@@ -287,6 +286,7 @@ hr {
 
 .wrapper i:first-child {
   left: 1rem;
+  display: none;
 }
 
 .wrapper i:first-child {
@@ -298,6 +298,16 @@ hr {
   font-size: 0;
   cursor: pointer;
   overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carousel.dragging img{
+  pointer-events: none;
 }
 
 .carousel img {
