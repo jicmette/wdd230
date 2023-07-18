@@ -25,11 +25,10 @@ p {
 h1 {
   background-color:#285821;
   color: #f7f8fd;
-  float: left;
   padding: 1em;
-  margin: 1em;
+  margin: 1em 0 1em 1em;
   border-radius: 1.5em;
-  width: 100%;
+  width: 90%;
   text-align: center;
 }
 
