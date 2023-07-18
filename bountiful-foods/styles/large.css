@@ -14,33 +14,40 @@
     display: none;
   }
 
+  h1 {
+    font-size: 3em;
+  }
+
   nav {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row: 1fr;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
   }
 
   .navigation {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    list-style: none;
-    align-items: center;
+    background-color: #f7f8fd;
   }
 
-  .navigation a {
+  .navigation li {
+    display: flex;
+  }
+
+  .navigation li a {
+    background-color: #181717;
     text-decoration: none;
-    color: #0d250a;
-    font-family: "Rubik", sans-serif;
-    padding: 1rem;
-    font-size: 1.2rem;
+    background-color: #285821;
+    color: #f7f8fd;
+    border-radius: 1.5rem;
   }
 
-  .navigation a:hover {
+  .navigation li a:hover {
     background-color: #0d250a;
     color: #f69b32;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 0.5rem 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   ul {
@@ -94,10 +101,10 @@
     grid-column: 2/3;
     grid-row: 1/2;
     justify-items: center;
-    font-size: 7rem;
-    line-height: 6rem;
+    font-size: 4rem;
+    line-height: 4rem;
     text-align: center;
-    transform: rotate(5deg);
+    transform: rotate(4deg);
   }
 
   #p-sec1 {
@@ -110,6 +117,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 50% 50%;
+    padding: 2rem;
   }
 
   .pic-sec2 {
@@ -123,18 +131,68 @@
   #h2-sec2 {
     grid-column: 1/2;
     grid-row: 1/2;
-    justify-items: center;
-    font-size: 7rem;
-    line-height: 6rem;
+    font-size: 4rem;
+    line-height: 4rem;
     text-align: center;
-    transform: rotate(-5deg);
     padding: 1rem;
+    transform: rotate(-5deg);
+    justify-items: center;
+    margin-top: 0;
   }
 
   #p-sec2 {
     grid-column: 1/2;
     grid-row: 2/3;
     align-self: center;
+    justify-self: center;
+    margin: 1rem;
+  }
+
+  .sec3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+  }
+
+  #h2-sec3 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    transform: rotate(5deg);
+    margin: 0;
+  }
+
+  #p-sec3 {
+    grid-column: 1/2;
+    grid-row: 4/6;
+    padding-top: 1rem;
+  }
+
+  #iconWeather {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  #back-temp {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  #description {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+
+  #back-hum {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+
+  .h3-weather {
   }
 
   /*FRESH PAGE*/

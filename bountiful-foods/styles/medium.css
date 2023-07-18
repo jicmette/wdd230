@@ -4,6 +4,36 @@
     width: 25%;
   }
 
+  #hamburger {
+    width: 50%;
+    justify-self: end;
+}
+
+.navigation {
+    padding-left: 0;
+}
+
+.navigation li {
+    display: none;
+    padding: 0;
+}
+
+.navigation li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation.responsive li {
+    display: block;
+}
+
+.navigation.responsive li a {
+    display: block;
+}
+
+
   /*FOOTER*/
   #logoFooter img {
     width: 20%;
@@ -28,7 +58,7 @@
   #logoIg:hover,
   #logoYt:hover,
   #logoLi:hover {
-    box-shadow: inset 200px 0 0 0 #0d250a;
+    box-shadow: inset 225px 0 0 0 #0d250a;
   }
 
   /*FRESH PAGE*/
