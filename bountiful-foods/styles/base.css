@@ -349,7 +349,7 @@ hr {
 }
 
 .sec3 h3 {
-  width: 50%;
+  width: 60%;
   text-transform: uppercase;
   border-radius: 1.5em;
   border: 2px solid #f69b32;
@@ -391,6 +391,10 @@ hr {
 
 .wrapper i:first-child {
   right: 100px;
+}
+
+#right {
+  margin-left: 90%;
 }
 
 .wrapper .carousel {
