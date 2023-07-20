@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: #285821;
+  color: #f69b32;
+}
+
 body {
   background-color: #f7f8fd;
   color: #323538;
@@ -23,7 +28,7 @@ p {
 }
 
 h1 {
-  background-color:#285821;
+  background-color: #285821;
   color: #f7f8fd;
   padding: 1em;
   margin: 1em auto;
@@ -113,6 +118,7 @@ nav {
 footer {
   background-color: #285821;
   padding: 2em;
+  height: auto;
 }
 
 #footer-logo {
@@ -229,6 +235,7 @@ hr {
   color: #f7f8fd;
   border-radius: 1.5em;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 /*HOME PAGE*/
@@ -263,7 +270,7 @@ hr {
 .sec1 {
   background-color: #f7f8fd;
   width: 100%;
-  height: 100vh;
+  height: auto;
   margin: 0;
   padding: 2em;
   text-align: center;
@@ -316,7 +323,6 @@ hr {
   margin: 0;
   padding: 2em;
   text-align: center;
-  
 }
 
 .pic-weather img {
@@ -332,6 +338,7 @@ hr {
   width: 30%;
   border-radius: 1.5em;
   background-color: #0d250a;
+  margin-top: 1em;
   padding: 1em;
   margin-bottom: 1em;
   font-size: 2em;
@@ -349,12 +356,9 @@ hr {
 }
 
 #description {
-  background-color: none;
   border: none;
-  border-radius: none;
-  box-shadow: none;
   font-size: 1.2em;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .sec3 p {
@@ -377,7 +381,6 @@ hr {
   justify-content: center;
   position: relative;
   padding: 2rem;
-  max-width: auto;
   background-color: #f69b32;
   width: 100%;
 }
@@ -424,7 +427,7 @@ hr {
   scroll-behavior: auto;
 }
 
-.carousel.dragging img{
+.carousel.dragging img {
   pointer-events: none;
 }
 
@@ -452,10 +455,9 @@ hr {
 
 form fieldset {
   border: 2px solid #f69b32;
-  background-color: #f7f8fd;
+  background-color: #fadfc1;
   font-family: "Rubik", sans-serif;
   border-radius: 1.5em;
-  
   margin: 0.5em auto;
 }
 
@@ -528,9 +530,7 @@ form label.sbs {
 
 select {
   margin: 2em auto;
-  
 }
-
 
 #lastModified {
   color: #f69b32;
@@ -557,7 +557,7 @@ select {
   text-align: center;
 }
 
-.h2-sec-about{
+.h2-sec-about {
   width: 50%;
   background-color: #285821;
   color: #f69b32;
@@ -566,7 +566,6 @@ select {
   padding: 0.5em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 0.5rem 0.5rem;
 }
-
 
 .sec3-about {
   background-color: #f7f8fd;
@@ -582,7 +581,7 @@ select {
   width: 80%;
   text-align: center;
   display: block;
-  padding: .5em;
+  padding: 0.5em;
   margin: 1em auto;
   border-radius: 1.5em;
   background-color: #285821;
