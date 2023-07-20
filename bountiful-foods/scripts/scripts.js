@@ -10,6 +10,10 @@ hamburger.addEventListener("click", () => {
   navigation.classList.toggle("responsive");
 });
 
+let update = document.lastModified;
+document.getElementById("lastModified").innerHTML = `Last Modification: ${update}`;
+
+
 //Carousel Fresh Page
 const carousel = document.querySelector(".carousel");
 firstImg = carousel.querySelectorAll("img")[0];

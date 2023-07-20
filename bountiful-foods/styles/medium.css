@@ -7,32 +7,31 @@
   #hamburger {
     width: 50%;
     justify-self: end;
-}
+  }
 
-.navigation {
+  .navigation {
     padding-left: 0;
-}
+  }
 
-.navigation li {
+  .navigation li {
     display: none;
     padding: 0;
-}
+  }
 
-.navigation li a {
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-}
-
-.navigation.responsive li {
+  .navigation li a {
     display: block;
-}
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+  }
 
-.navigation.responsive li a {
+  .navigation.responsive li {
     display: block;
-}
+  }
 
+  .navigation.responsive li a {
+    display: block;
+  }
 
   /*FOOTER*/
   #logoFooter img {
@@ -59,6 +58,24 @@
   #logoYt:hover,
   #logoLi:hover {
     box-shadow: inset 225px 0 0 0 #0d250a;
+  }
+
+  /*HOME PAGE*/
+  #fruitDrinkBtn {
+    font-size: 2em;
+    margin-left: 20%;
+    margin-top: 30%;
+    background-color: #0d250a;
+    color: #f69b32;
+  }
+
+  #main-pic img {
+    height: 100vw;
+  }
+
+  #fruitDrinkBtn:hover {
+    background-color: #f69b32;
+    color: #0d250a;
   }
 
   /*FRESH PAGE*/

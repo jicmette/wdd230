@@ -235,15 +235,36 @@ hr {
   background-color: #0d250a;
   color: #f7f8fd;
   border-radius: 1.5em;
+  text-align: center;
 }
 
 /*HOME PAGE*/
 #main-pic img {
   width: 100%;
-  height: 200hv;
+  height: 100hv;
   object-fit: cover;
   filter: opacity(90%);
   box-shadow: rgba(14, 14, 14, 0.24) 0px 0.5rem 0.5rem;
+}
+
+#fruitDrinkBtn {
+  position: absolute;
+  z-index: 1;
+  background-color: #285821;
+  color: #f7f8fd;
+  padding: 0.6em;
+  margin-left: 50%;
+  margin-top: 110%;
+  border: none;
+  border-radius: 1.5em;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#fruitDrinkBtn:hover {
+  background-color: #0d250a;
+  color: #f69b32;
 }
 
 .sec1 {
@@ -436,24 +457,88 @@ hr {
 }
 
 form fieldset {
-  margin: 1em;
-  padding: 1.5em;
   border: 2px solid #f69b32;
   background-color: #f7f8fd;
   font-family: "Rubik", sans-serif;
   border-radius: 1.5em;
+  
+  margin: 0.5em auto;
 }
 
 form legend {
-  background-color: #f7f8fd;
+  background-color: #285821;
+  color: #f7f8fd;
   padding: 0.5em;
-  border: 2px solid #f69b32;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
   padding: 1em;
   font-size: 1.17em;
   border-radius: 1.5em;
+  width: 50%;
+}
+
+form input.submitBtn {
+  border: none;
+  padding: 1em;
+  background-color: #285821;
+  color: #f7f8fd;
+  border-radius: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0.5rem 0.5rem;
+}
+
+form input.submitBtn:hover {
+  background-color: #0d250a;
+  color: #f69b32;
+}
+
+.inputBox,
+textarea {
+  padding: 0.7em;
+  border-radius: 1.5em;
+  border: none;
+  width: 95%;
+  margin-top: 0.5em;
+  resize: none;
+  margin: 0.5em auto;
+}
+
+.inputBox:focus {
+  outline: 2px solid #f69b32;
+}
+
+textarea:focus {
+  outline: 2px solid #f69b32;
+}
+
+.requiredF {
+  color: red;
+}
+
+form label.top,
+form div {
+  display: block;
   color: #285821;
+  font-size: 1em;
+  padding: 1em 1em 1em 1em;
+}
+
+form label.sbs {
+  display: block;
+  padding-top: 1em;
+  color: #181717;
+  font-size: 1em;
+  padding-left: 1em;
+}
+
+select {
+  margin: 2em auto;
+  
 }
 
 
+#lastModified {
+  color: #f69b32;
+  font-family: "Rubik", sans-serif;
+}

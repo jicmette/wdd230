@@ -192,9 +192,11 @@
     grid-row: 5/6;
   }
 
-  .h3-weather {
+  #fruitDrinkBtn {
+    margin-left: 10%;
+    font-size: 3rem;
+    margin-top: 10%;
   }
-
   /*FRESH PAGE*/
   .carousel img {
     width: 30%;
