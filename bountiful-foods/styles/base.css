@@ -26,9 +26,9 @@ h1 {
   background-color:#285821;
   color: #f7f8fd;
   padding: 1em;
-  margin: 1em 0 1em 1em;
+  margin: 1em auto;
   border-radius: 1.5em;
-  width: 90%;
+  width: 95%;
   text-align: center;
 }
 
@@ -52,6 +52,7 @@ ul {
 
 #hamburger {
   background-color: transparent;
+  color: #181717;
   border: none;
   font-size: 2em;
   display: block;
@@ -67,14 +68,6 @@ ul {
 #logo img {
   width: 40%;
 }
-
-#active {
-  background-color: #0d250a;
-  color: #f69b32;
-  padding: 1em;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
 .navigation {
   display: flex;
   flex-direction: column;
@@ -386,6 +379,7 @@ hr {
   padding: 2rem;
   max-width: auto;
   background-color: #f69b32;
+  width: 100%;
 }
 
 .wrapper i {
@@ -541,4 +535,71 @@ select {
 #lastModified {
   color: #f69b32;
   font-family: "Rubik", sans-serif;
+}
+
+/*ABOUT US PAGE*/
+.sec1-about {
+  background-color: #f7f8fd;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+
+.sec2-about {
+  background-color: #f69b32;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 2em;
+  justify-content: center;
+  text-align: center;
+}
+
+.h2-sec-about{
+  width: 50%;
+  background-color: #285821;
+  color: #f69b32;
+  border-radius: 1.5rem;
+  margin: 1em auto;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0.5rem 0.5rem;
+}
+
+
+.sec3-about {
+  background-color: #f7f8fd;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 2em;
+  justify-items: center;
+  text-align: center;
+}
+
+.about-data {
+  width: 80%;
+  text-align: center;
+  display: block;
+  padding: .5em;
+  margin: 1em auto;
+  border-radius: 1.5em;
+  background-color: #285821;
+  color: #f7f8fd;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about-data:hover {
+  background-color: #0d250a;
+  color: #f69b32;
+}
+
+iframe {
+  border-radius: 1.5rem;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

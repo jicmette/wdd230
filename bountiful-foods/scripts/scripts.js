@@ -13,7 +13,6 @@ hamburger.addEventListener("click", () => {
 let update = document.lastModified;
 document.getElementById("lastModified").innerHTML = `Last Modification: ${update}`;
 
-
 //Carousel Fresh Page
 const carousel = document.querySelector(".carousel");
 firstImg = carousel.querySelectorAll("img")[0];
@@ -74,56 +73,32 @@ carousel.addEventListener("mouseleave", dragStop);
 carousel.addEventListener("touchend", dragStop);
 
 //JSON for select fruits in Fresh Page
-// const fruits = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+const fruits = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 
-// async function getFruitsData() {
-//   const response = await fetch(fruits);
-//   const data = await response.json();
-//   console.table(data);
-// }
+async function getFruitsOptions() {
+  const response = await fetch(fruits);
+  const data = await response.json();
+  console.table(data);
+}
 
-// for (let name in fruits) {
-//     html += "<option value=" + name + ">" +fruits[name] + "</option>"
-// }
+let fruit1 = document.getElementById("#fruits1");
+let fruit2 = document.getElementById("#fruits2");
+let fruit3 = document.getElementById("#fruits3");
 
-// document.getElementById("fruit").innerHTML = f
+let fruitSelected = [fruit1, fruit2, fruit3];
 
-// getFruitsData();
+for (let index = 0; index < fruitSelected.length; index++) {
+  let option0 = document.createElement("option");
+  option0.setAttribute("value", "0");
+  option0.textContent = "Select the fruit";
 
-// let dropdown = document.getElementById("#fruits");
-// dropdown.length = 0;
+  fruitSelected[index].appendChild(option0);
 
-// let defaultOption = document.createElement("option");
-// defaultOption.text = "Choose a Fruit";
+  data.forEach(fruit => {
+    let option = document.createElement("option");
+    option.setAttribute("value", fruit.name); 
+    fruitSelected[index].appendChild(option);
+  })
+}
 
-// dropdown.add(defaultOption);
-// dropdown.selectedIndex = 0;
-
-// const url = "https://brotherblazzard.github.io/canvas-content/fruit.json";
-
-// fetch(url)
-//   .then(function (response) {
-//     if (response.status !== 200) {
-//       console.warn(
-//         "Looks like there was a problem. Status Code: " + response.status
-//       );
-//       return;
-//     }
-
-//     // Examine the text in the response
-//     response.json().then(function (data) {
-//       let option;
-
-//       for (let i = 0; i < data.length; i++) {
-//         option = document.createElement("option");
-//         option.text = data[i].name;
-//         dropdown.add(option);
-//       }
-//     });
-//   })
-
-//   .catch(function (err) {
-//     console.error("Fetch Error -", err);
-//   });
-
-//   fetch(url);
+getFruitsOptions();
