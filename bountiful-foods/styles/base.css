@@ -350,6 +350,9 @@ hr {
 #temp {
   font-size: 1em;
   color: #f69b32;
+  text-align: center;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 #humidity {
